@@ -7,7 +7,7 @@ This is a sample code for SES Test.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/ankurgajurel/ses-test
+git clone https://github.com/kiranbilla/ses-test
 ```
 
 2. Virtual Environment
@@ -26,9 +26,9 @@ pip install -r requirements.txt
 
 ## Usage
 
-First, edit env file with your ses credentials
+First, edit env file with your ses credentials go to ses service in aws console form there should be create a ses Access key ID,Secret access key only
 ```bash
-cp .env.example .env
+cp env.example .env
 ```
 
 Then, run the following command to send email

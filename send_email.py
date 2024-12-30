@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-sender_email = "mailer@kmsger.net"
-recipient_email = "gopika@kuwaitnet.com"
+sender_email = "sender mailid@abc.com"
+recipient_email = "reciver mailid@xyz.com"
 
 
 def send_email():
